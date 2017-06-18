@@ -36,8 +36,8 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim conf = "start.bat"
-        Label1.Text = "XMRigged " + "Version " + My.Application.Info.Version.ToString + " alpha"
+        Dim conf = "conf.bat"
+        Label1.Text = "XMRigged " + "Version " + My.Application.Info.Version.ToString + ".1" + " alpha"
         'check for the batch file
         If System.IO.File.Exists(conf) Then
             Label7.Text = "Settings Loaded!"
@@ -145,5 +145,9 @@
             p.Kill()
         Next
         End
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class
