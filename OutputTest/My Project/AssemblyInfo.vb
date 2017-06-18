@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("XMRigged")>
-<Assembly: AssemblyDescription("XMRigged is a wrapper for XMRig designed in visual basic. It is designed to be easy to use and easy to setup. Once the miner is configured you can set it and forget it.")>
+<Assembly: AssemblyDescription("XMRigged began as a wrapper/proof of concept for XMRig designed in visual basic. It is designed to be easy to use and easy to setup. Once the miner is configured you can set it and forget it. It has gained more features with each revision. With hopes to be a onestop shop for all beginners to have a easy place to start.")>
 <Assembly: AssemblyCompany("Monero Resource Hub")>
 <Assembly: AssemblyProduct("XMRigged")>
 <Assembly: AssemblyCopyright("Copyright © Monero Resource Hub 2017")>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("0.0.0.2")>
-<Assembly: AssemblyFileVersion("0.0.0.2")>
+<Assembly: AssemblyVersion("0.0.0.4")>
+<Assembly: AssemblyFileVersion("0.0.0.4")>

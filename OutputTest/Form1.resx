@@ -1313,7 +1313,7 @@ easy to do.
   <data name="Buttonon.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAO8AAABFCAYAAACi97ExAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODAUY1FYx
+        YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODAUY1FYx
         AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggTE9WRXNJscUAABJwSURBVHhe7d35j13lfcfx
         /kGpPftgp04hAVw1KhIkLEpRA5WiVEkjpYlEpapp0wSMZ/WstjFLCRCFGgR1UgIFBwKefTy7jZexMQTb
         GC/jZezxbOc8+Xy/z/dZzrnnzuK545mxnyO9de997rlz+eG+eJ5zl+O/2Lj5EbV8PbykNhS6e/0eKkh3
@@ -1399,7 +1399,7 @@ easy to do.
   <data name="buttonoff.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAO8AAABFCAYAAACi97ExAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODB6SsZ/d
+        YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODB6SsZ/d
         AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggTE9WRXNJscUAABKiSURBVHhe7d35bxznfcfx
         /kGpRHJJ6qiVOD4ioC6K2oktozACu4D7Q4C2bgq4QNHUbupYJEWJN3X4TpM2lQ2pburGsGX5EE9RPEVF
         lijZ0UFZFnVSIkVRmnn6+X6fe2aWXJJLkZSeAd7Y3YfDlRLsy88zuzujP1q/8WmxeG1aUOuK3Q/cnipK
@@ -1486,7 +1486,7 @@ easy to do.
   <data name="backup.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAO8AAABFCAYAAACi97ExAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr8AAA6/ATgFUyQAAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODAUY1FYx
+        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAAGYktHRAAAAAAAAPlDu38AAAAHdElNRQfhBhAODAUY1FYx
         AAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggTE9WRXNJscUAABJwSURBVHhe7d35j13lfcfx
         /kGpPftgp04hAVw1KhIkLEpRA5WiVEkjpYlEpapp0wSMZ/WstjFLCRCFGgR1UgIFBwKefTy7jZexMQTb
         GC/jZezxbOc8+Xy/z/dZzrnnzuK545mxnyO9de997rlz+eG+eJ5zl+O/2Lj5EbV8PbykNhS6e/0eKkh3

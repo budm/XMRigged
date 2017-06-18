@@ -26,7 +26,6 @@ Partial Class AboutBox1
         Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
         Me.LabelProductName = New System.Windows.Forms.Label()
         Me.LabelVersion = New System.Windows.Forms.Label()
-        Me.LabelCopyright = New System.Windows.Forms.Label()
         Me.LabelCompanyName = New System.Windows.Forms.Label()
         Me.TextBoxDescription = New System.Windows.Forms.TextBox()
         Me.OKButton = New System.Windows.Forms.Button()
@@ -42,7 +41,6 @@ Partial Class AboutBox1
         Me.TableLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle())
         Me.TableLayoutPanel.Controls.Add(Me.LabelProductName, 0, 0)
         Me.TableLayoutPanel.Controls.Add(Me.LabelVersion, 0, 1)
-        Me.TableLayoutPanel.Controls.Add(Me.LabelCopyright, 0, 2)
         Me.TableLayoutPanel.Controls.Add(Me.LabelCompanyName, 0, 3)
         Me.TableLayoutPanel.Controls.Add(Me.TextBoxDescription, 0, 4)
         Me.TableLayoutPanel.Controls.Add(Me.OKButton, 0, 5)
@@ -62,7 +60,8 @@ Partial Class AboutBox1
         'LabelProductName
         '
         Me.LabelProductName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelProductName.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelProductName.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelProductName.ForeColor = System.Drawing.SystemColors.Control
         Me.LabelProductName.Location = New System.Drawing.Point(6, 0)
         Me.LabelProductName.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelProductName.MaximumSize = New System.Drawing.Size(0, 17)
@@ -75,7 +74,8 @@ Partial Class AboutBox1
         'LabelVersion
         '
         Me.LabelVersion.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelVersion.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelVersion.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelVersion.ForeColor = System.Drawing.SystemColors.Control
         Me.LabelVersion.Location = New System.Drawing.Point(6, 25)
         Me.LabelVersion.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 17)
@@ -85,23 +85,11 @@ Partial Class AboutBox1
         Me.LabelVersion.Text = "Version"
         Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'LabelCopyright
-        '
-        Me.LabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelCopyright.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelCopyright.Location = New System.Drawing.Point(6, 50)
-        Me.LabelCopyright.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
-        Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 17)
-        Me.LabelCopyright.Name = "LabelCopyright"
-        Me.LabelCopyright.Size = New System.Drawing.Size(387, 17)
-        Me.LabelCopyright.TabIndex = 0
-        Me.LabelCopyright.Text = "Copyright"
-        Me.LabelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
         'LabelCompanyName
         '
         Me.LabelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelCompanyName.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelCompanyName.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelCompanyName.ForeColor = System.Drawing.SystemColors.Control
         Me.LabelCompanyName.Location = New System.Drawing.Point(6, 75)
         Me.LabelCompanyName.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
         Me.LabelCompanyName.MaximumSize = New System.Drawing.Size(0, 17)
@@ -172,7 +160,6 @@ Partial Class AboutBox1
     Friend WithEvents TableLayoutPanel As TableLayoutPanel
     Friend WithEvents LabelProductName As Label
     Friend WithEvents LabelVersion As Label
-    Friend WithEvents LabelCopyright As Label
     Friend WithEvents LabelCompanyName As Label
     Friend WithEvents TextBoxDescription As TextBox
     Friend WithEvents OKButton As Button

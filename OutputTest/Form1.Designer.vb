@@ -50,6 +50,7 @@ Partial Class Form1
         Me.backup = New System.Windows.Forms.PictureBox()
         Me.controll = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.bgind = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Buttonon, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -305,12 +306,23 @@ Partial Class Form1
         '
         Me.Timer1.Enabled = True
         '
+        'bgind
+        '
+        Me.bgind.AutoSize = True
+        Me.bgind.Location = New System.Drawing.Point(809, 302)
+        Me.bgind.Name = "bgind"
+        Me.bgind.Size = New System.Drawing.Size(13, 15)
+        Me.bgind.TabIndex = 26
+        Me.bgind.Text = "0"
+        Me.bgind.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(822, 487)
+        Me.Controls.Add(Me.bgind)
         Me.Controls.Add(Me.controll)
         Me.Controls.Add(Me.backup)
         Me.Controls.Add(Me.buttonoff)
@@ -375,4 +387,5 @@ Partial Class Form1
     Friend WithEvents backup As PictureBox
     Friend WithEvents controll As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents bgind As Label
 End Class

@@ -35,6 +35,7 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         Dim conf = "start.bat"
         Label1.Text = "XMRigged " + "Version " + My.Application.Info.Version.ToString + " alpha"
         'check for the batch file
@@ -76,6 +77,11 @@
             'setup:
             txtoutput.Clear() 'clear previous outputs
             pso = New ProcessStartInfo(start) 'txthidden.Text
+
+            'Background Mode Check
+            If bgind.Text = "1" Then
+                txtoutput.Text = "Background Mode is Currently Enabled, No Output Displayed."
+            End If
 
             'miner initialization:
             Dim minerencoding As System.Text.Encoding = Nothing
